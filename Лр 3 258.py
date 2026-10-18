@@ -1,0 +1,7 @@
+n = int(input("Enter n:"))
+pi = 0.0
+for i in range(n):
+    pi += (-1) ** i / (2 * i + 1)
+
+pi *= 4
+print(pi)
